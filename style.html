@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Style Manipulation</title>
+        <script src="style.js" defer></script>
+    </head>
+    <body>
+        <h1 id="header" onmouseover="headerChange()">This H1 tag will change on hover</h1>
+
+        <div id="box" onclick="changeColor()">Click here to change color</div>
+
+        <ul onmouseover="listChange()">
+            <li id="odd">Pre ABA-NBA Merger</li>
+            <li>Magic & Larry Era</li>
+            <li>Michael Jordan Era</li>
+            <li>Modern Era</li>
+        </ul>
+
+
+        <input type="text" onfocus="backTextChange()" id="inny" placeholder="Click to watch magic">
+        <br>
+        <button id="lilButton" onclick="moveButton()">Click me, I move</button>
+    </body>
+</html>
